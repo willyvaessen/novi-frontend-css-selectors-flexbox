@@ -1,0 +1,86 @@
+/* ======================================================
+   OEFENEN MET FLEXBOX
+========================================================= */
+
+/* Schrijf hier  jouw CSS! */
+
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Opdracht 1.1 */
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+
+/* Opdracht 1.2 */
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+span {
+    padding: 20px;
+}
+
+/*
+
+ */
+
+/* Opdracht 1.3 */
+
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 250px;
+}
+
+/* Opdracht 1.4 */
+
+
+.four-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.login-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Opdracht 1.5 */
+/* <article> heeft een padding van 20px meegekregen uit base-style.css */
+/* Drie artikelen naast elkaar plaatsen: */
+
+.five {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+article {
+    flex-basis: 350px;
+    flex-grow: 1;
+}
